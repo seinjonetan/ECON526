@@ -5,6 +5,12 @@ This is a MA-level course in quantitative economics, data science, and causal in
 
 This course will have a combination of coding, theory, and development of mathematical background.  All coding is done in Python.
 
+[Link to Lecture Slides](https://ubcecon.github.io/ECON526/lectures/index.html)
+
+and
+[Paul's HTML Slides](https://ubcecon.github.io/ECON526/paul/), [source](https://github.com/ubcecon/526)
+
+
 # Course materials
 - Get a [GitHub](www.github.com) ID and apply for the [Student Developer Pack](https://education.github.com/pack) to get further free features
 - Consider clicking `Watch` at the top of this repository to see file changes
@@ -40,10 +46,12 @@ The course has two midterms, weekly to bi-weekly problem sets, and a final data 
 2. **September 17th Midnight:** [Problem Set 2](problem_sets/problem_set_2.ipynb)
 3. **September 25th Midnight:** [Problem Set 3](problem_sets/problem_set_3.ipynb)
 4. **October 4th Midnight:** [Problem Set 4](problem_sets/problem_set_4.ipynb)
-5. **October 5th:** Midterm Logistics Practice with [Midterm Practice Problems](problem_sets/midterm_practice_1.ipynb)
-6. **October 11th:** IN CLASS MIDTERM #1
-7. **November 8th:** IN CLASS MIDTERM #2
-8. **December 8th Midnight:** Data Project Due
+6. **October 5th:** Midterm Logistics Practice with [Midterm Practice Problems](problem_sets/midterm_practice_1.ipynb)
+7. **October 11th:** IN CLASS MIDTERM #1'
+8. **October 25th:** [Problem Set 5](problem_sets/problem_set_5.ipynb)
+9. **October 2nd, 10am:** [Problem Set 6](problem_sets/problem_set_6.ipynb)
+10. **November 8th:** IN CLASS MIDTERM #2
+11. **December 8th Midnight:** Data Project Due
 
 See the `/problem_sets` folder within this repository for the problem sets as jupyter notebooks.  You should modify them directly as Jupyter notebooks, and the TA will explain how to submit them.
 
@@ -52,13 +60,15 @@ This year the course will be taught in three parts where the later parts of the 
 
 This lecture begins assuming you have completed the math/programming bootcamp for our masters students, or had an existing python-based programming course.  To refresh your knowledge, see basics in [QuantEcon Data Science Lectures](https://datascience.quantecon.org/) or [QuantEcon Python Programming for Economics and Finance](https://python-programming.quantecon.org/intro.html).
 
-Slides for the lectures can be found [here](https://ubcecon.github.io/ECON526/lectures/index.html)
+Slides for the lectures can be found [here](https://ubcecon.github.io/ECON526/lectures/index.html) and
+
+[Paul's HTML Slides](https://ubcecon.github.io/ECON526/paul/), [source](https://github.com/ubcecon/526)
 
 ### Jesse
 
 - **September 6**: Introduction to Numerical Linear Algebra and its Applications in Data Science
    - **Topics:** Overview of computational complexity and numerical precision, solving systems of equations, geometric interpretations of linear algebra, matrix decompositions, linear least squares, and eigenvalues and eigenvectors.  Preparation for applications.
-   - **Material:** 
+   - **Material:**
      - [Linear Algebra Foundations](https://ubcecon.github.io/ECON526/lectures/lectures/linear_algebra_foundations.html), [Jupyter](lectures/lectures/linear_algebra_foundations.ipynb), [PDF](lectures/lectures/linear_algebra_foundations.pdf)
    - **Self-study:**
      - Basics of linear algebra, matrices, norms, and linear independence: https://python.quantecon.org/linear_algebra.html
@@ -72,7 +82,7 @@ Slides for the lectures can be found [here](https://ubcecon.github.io/ECON526/le
 
 - **September 11**: Applications of Linear Algebra (Eigenvalues and Discounting)
    - **Topics:** Geometric series and present values, difference equations, steady states, and convergence, unemployment dynamics, present discounted values
-   - **Material:** 
+   - **Material:**
      - Finishing off [Linear Algebra Foundations](https://ubcecon.github.io/ECON526/lectures/lectures/linear_algebra_foundations.html)
      - [Eigenvalues and Stability](https://ubcecon.github.io/ECON526/lectures/lectures/eigenvalue_applications.html), [Jupyter](lectures/lectures/eigenvalue_applications.ipynb), [PDF](lectures/lectures/eigenvalue_applications.pdf)
    - **Self-study:**
@@ -85,15 +95,15 @@ Slides for the lectures can be found [here](https://ubcecon.github.io/ECON526/le
 
 - **September 13**: Latent Variables and Intro to Unsupervised Learning
    - **Topics:** Finished off eigenvalues and dynamics, principle components, and present discounted values
-   - **Material:** 
+   - **Material:**
      -  [Latent Variables and Unsupervised Learning](https://ubcecon.github.io/ECON526/lectures/lectures/latent_variables.html), [Jupyter](lectures/lectures/latent_variables.ipynb), [PDF](lectures/lectures/latent_variables.pdf)
    - **Self-study:**
      - [scikit-learn PCA docs](https://scikit-learn.org/stable/modules/decomposition.html#principal-component-analysis-pca)
      - [seaborn tutorials](https://seaborn.pydata.org/tutorial/introduction.html)
 
-- **September 18**: More on Latent Variables and Clustering 
+- **September 18**: More on Latent Variables and Clustering
    - **Topics:** Finish off continuous latent variables, PCA, auto-encoders, clustering, and started dynamics
-   - **Material:** 
+   - **Material:**
      - [Latent Variables and Unsupervised Learning](https://ubcecon.github.io/ECON526/lectures/lectures/latent_variables.html)
    - **Self-study:**
      - [scikit-learn k-means docs](https://scikit-learn.org/stable/modules/clustering.html#k-means)
@@ -107,7 +117,7 @@ Slides for the lectures can be found [here](https://ubcecon.github.io/ECON526/le
      - Review [taylor series](https://en.wikipedia.org/wiki/Linearization#Multivariable_functions), just to first order
    - **(Optional) Extra Material**:
      - More on the Solow Model and Python: https://python-programming.quantecon.org/python_oop.html#example-the-solow-growth-model
-    
+
 - **September 25**: Probability, Randomness, and Independence
    - **Topics:** Axioms of probability, LLN and CLT, and Conditional Independence
    - **Material:**
@@ -124,7 +134,7 @@ Slides for the lectures can be found [here](https://ubcecon.github.io/ECON526/le
    - **Topics:** Conditional expectations, Bayes' rule, Law of Iterated Expectations, stochastic processes
     - **Material:**
       - Finish [Probability, Conditioning, and Independence](https://ubcecon.github.io/ECON526/lectures/lectures/probability.html)
-      - [Stochastic Processes](https://ubcecon.github.io/ECON526/lectures/lectures/stochastic_processes.html), [Jupyter](lectures/lectures/stochastic_processes.ipynb), [PDF](lectures/lectures/stochastic_processes.pdf)  
+      - [Stochastic Processes](https://ubcecon.github.io/ECON526/lectures/lectures/stochastic_processes.html), [Jupyter](lectures/lectures/stochastic_processes.ipynb), [PDF](lectures/lectures/stochastic_processes.pdf)
    - **(Optional) Extra Material**:
      - https://python.quantecon.org/finite_markov.html for more on Markov Chains
      - https://python.quantecon.org/ar1_processes.html for more on AR(1) processes
@@ -144,52 +154,71 @@ Slides for the lectures can be found [here](https://ubcecon.github.io/ECON526/le
 -  **October 11**
     - **IN CLASS MIDTERM #1**
 ### Phil
--   **October 12** ("Make-up Monday") Linear Regression, Omitted Variable Bias
+-   **October 12** ("Make-up Monday") Introduction to Causality, continued
+    - **Material:**
+      - [Introduction to Causality and Randomized Experiments](https://ubcecon.github.io/ECON526/lectures/lectures/introduction_to_causality.html)
+    - **Self-study:**
+      - https://matheusfacure.github.io/python-causality-handbook/01-Introduction-To-Causality.html
+      - https://matheusfacure.github.io/python-causality-handbook/02-Randomised-Experiments.html
+
+-   **October 16** Stats Review: Quantifying Uncertainty in Causal Inference
+    - **Material:**
+      - [Stats Review: Quantifying Uncertainty in Applied Economics](https://ubcecon.github.io/ECON526/lectures/lectures/uncertainty_bias_variance.html)
+    - **Self-study:**
+      - https://matheusfacure.github.io/python-causality-handbook/03-Stats-Review-The-Most-Dangerous-Equation.html
+
+-   **October 18** Uncertainty Quantification II
+    - **Material:**
+      - Finish [Stats Review: Quantifying Uncertainty in Applied Economics](https://ubcecon.github.io/ECON526/lectures/lectures/uncertainty_bias_variance.html)
+
+-   **October 23** Causal Graphical Models
+    - **Material:**
+      - [Causal Graphical Models](https://ubcecon.github.io/ECON526/lectures/lectures/causal_graphical_models.html#/title-slide)
+      - https://matheusfacure.github.io/python-causality-handbook/04-Graphical-Causal-Models.html
+    - **Self-study:**
+      - https://theeffectbook.net/ch-DrawingCausalDiagrams.html
+
+-   **October 25** Regression, Confounders
     - **Material:**
       - https://matheusfacure.github.io/python-causality-handbook/05-The-Unreasonable-Effectiveness-of-Linear-Regression.html
-
--   **October 16** Groups and Dummy Regression
-    - **Material:**
       - https://matheusfacure.github.io/python-causality-handbook/06-Grouped-and-Dummy-Regression.html
--   **October 18** Beyond Confounders - Good and Bad Controls, Selection Bias
-    - **Material:**
       - https://matheusfacure.github.io/python-causality-handbook/07-Beyond-Confounders.html
--   **October 23** Instrumental Variables
+
+-   **October 30** Instrumental Variables, Noncompliance, LATE
     - **Material:**
       - https://matheusfacure.github.io/python-causality-handbook/08-Instrumental-Variables.html
--   **October 25** Matching
+      - https://matheusfacure.github.io/python-causality-handbook/09-Non-Compliance-and-LATE.html
+
+-   **November 1**: Matching
     - **Material:**
       - https://matheusfacure.github.io/python-causality-handbook/10-Matching.html
--   **October 30** Propensity Scores
-    - **Material:**
       - https://matheusfacure.github.io/python-causality-handbook/11-Propensity-Score.html
--   **November 1**: Doubly Robust Estimation
-    - **Material:**
-      - https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html
+
 ### Paul
 
--    **November 6**: Overview and begin difference in differences
-    - https://matheusfacure.github.io/python-causality-handbook/13-Difference-in-Differences.html
+[HTML Slides](https://ubcecon.github.io/ECON526/paul/), [source](https://github.com/ubcecon/526)
+
+-  **November 6**: [Matching](https://ubcecon.github.io/ECON526/paul/matching.html)
 -  **November 8**
     - **IN CLASS MIDTERM #2**
--  **November 10**: Difference in Differences
-    - https://matheusfacure.github.io/python-causality-handbook/13-Difference-in-Differences.html
--  **November 13 (Midterm Break)**
--  **November 15 (Midterm Break)**
--  **November 20**: Panel Data and Fixed Effects
-    - https://matheusfacure.github.io/python-causality-handbook/14-Panel-Data-and-Fixed-Effects.html
--  **November 22**: The Difference in Differences Saga
-    - https://matheusfacure.github.io/python-causality-handbook/24-The-Diff-in-Diff-Saga.html
--  **November 27**: Synthetic Control
-    - https://matheusfacure.github.io/python-causality-handbook/15-Synthetic-Control.html
-    - https://matheusfacure.github.io/python-causality-handbook/25-Synthetic-Diff-in-Diff.html
--  **November 29**: Predictive Models
+-  **November 9 (TA session)**: Predictive Models
     - https://matheusfacure.github.io/python-causality-handbook/17-Predictive-Models-101.html
     - https://datascience.quantecon.org/tools/regression.html
-- **December 4**: Debiased/Orthogonal Machine Learning
-    - https://matheusfacure.github.io/python-causality-handbook/22-Debiased-Orthogonal-Machine-Learning.html
-    - https://datascience.quantecon.org/applications/ml_in_economics.html#estimation-of-nuisance-functions    -
-- **December 6**: Regression Discontinuity
-    - https://matheusfacure.github.io/python-causality-handbook/16-Regression-Discontinuity-Design.html
-- **December 8**
+-  **November 13 (Midterm Break)**
+-  **November 15 (Midterm Break)**
+-  **November 20**:  Finish [Matching](https://ubcecon.github.io/ECON526/paul/matching.html), start [Difference in Differences](https://ubcecon.github.io/ECON526/paul/did.html)
+    - https://matheusfacure.github.io/python-causality-handbook/13-Difference-in-Differences.html
+-  **November 22**: [Panel Data and Fixed Effects](https://ubcecon.github.io/ECON526/paul/fe.html), [The Difference in Differences Saga](https://ubcecon.github.io/ECON526/paul/moredid.html)
+    - https://matheusfacure.github.io/python-causality-handbook/14-Panel-Data-and-Fixed-Effects.html
+    - https://matheusfacure.github.io/python-causality-handbook/24-The-Diff-in-Diff-Saga.html
+-  **November 27**: [Synthetic Control](https://ubcecon.github.io/ECON526/paul/syntheticcontrol.html)
+    - https://matheusfacure.github.io/python-causality-handbook/15-Synthetic-Control.html
+    - https://matheusfacure.github.io/python-causality-handbook/25-Synthetic-Diff-in-Diff.html
+-  **November 29**: [Debiased/Orthogonal Machine Learning](https://ubcecon.github.io/ECON526/paul/doubleml.html)
+    - https://datascience.quantecon.org/applications/ml_in_economics.html#estimation-of-nuisance-functions
+- **December 4**: [Treatment Heterogeneity and Conditional Effects](https://ubcecon.github.io/ECON526/paul/conditionaleffect.html)
+    - https://datascience.quantecon.org/applications/heterogeneity.html
+- **December 6**: 8. [Neural Networks](https://ubcecon.github.io/ECON526/paul/neuralnets.html)
+   - Reading: [QuantEcon Datascience: Regression - Neural Networks](https://datascience.quantecon.org/tools/regression.html#neural-networks)
+- **December 15**
     - **DATA PROJECT DUE**
